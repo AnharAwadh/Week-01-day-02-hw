@@ -1,0 +1,86 @@
+Q1
+
+public class braek {
+    public static void main(String[] args) {
+
+int grade=93;
+
+            if (grade%5==3){
+                grade=grade+2;
+            System.out.println(grade);}
+
+
+}}
+
+
+
+
+
+----------------------------------------
+Q2
+public class Main {
+    public static void main(String[] args) {
+
+for (int i=1; i<=100;i++)
+{
+    if (i%3==0)
+        System.out.println("Fizz");
+    else if (i%5==0)
+        System.out.println("Buzz");
+    else if (i%5==0&&i%3==0)
+        System.out.println("FizzBuzz");
+    else System.out.println(i);
+}
+    }
+}
+------------------------
+Q3 -Vowels in the word-
+public class Main {
+    public static void main(String[] args) {
+
+char [] arr1={'a','n','h','a','r'};
+
+System.out.println(vol(arr1));
+
+    }
+   static int vol(char[] arr2) {
+        int count = 0;
+
+        for (int i = 0; i < arr2.length; i++) {
+            if (arr2[i] == 'o' || arr2[i] == 'u' || arr2[i] == 'i' || arr2[i] == 'a') {
+                count++;
+            }
+
+
+        }
+        return count;
+    }
+
+}
+-------------------------------------------------
+Q3 -Max
+public class Main {
+    public static void main(String[] args) {
+
+
+int num1=5;
+int num2=1;
+System.out.println(max(num1,num2));
+
+    }
+
+    public static int max(int num1, int num2) {
+
+        int max=0;
+
+        if (num1 > num2)
+            max = num1;
+        if (num1< num2)
+            max = num2;
+
+
+        return max;
+
+
+    }
+}
